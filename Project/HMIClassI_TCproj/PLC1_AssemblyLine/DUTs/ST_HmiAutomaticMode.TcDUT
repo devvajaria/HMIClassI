@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_HmiAutomaticMode" Id="{5c60fbdb-dfdf-452d-8549-16644c5ccd9b}">
+    <Declaration><![CDATA[TYPE ST_HmiAutomaticMode :
+STRUCT
+	//Current state of the automatic mode state machine
+	nStateNumber		: E_FeederAutoState := 0;
+	
+	//Error simulation, state to in which should an error occure
+	nErrorSimulation	: INT;
+	
+	fCurrentTargetPosX			: LREAL;
+	fCurrentTargetPosY			: LREAL;
+END_STRUCT
+END_TYPE]]></Declaration>
+  </DUT>
+</TcPlcObject>

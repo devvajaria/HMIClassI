@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
+  <DUT Name="ST_HmiOperationMode" Id="{77da2eae-97e4-4533-8a6b-592aa7c9d511}">
+    <Declaration><![CDATA[TYPE ST_HmiOperationMode :
+STRUCT
+	//Set feeder into automatic mode
+	bSetAutoMode		: BOOL;
+	//Set feeder into manual mode
+	bSetManualMode		: BOOL;
+	//Set feeder into stop mode
+	bSetStopMode		: BOOL;	
+	
+	
+	//Feeder is in automatic mode
+	bIsAutoMode			: BOOL;
+	//Feeder is in manual mode
+	bIsManualMode		: BOOL;
+	//Feeder is in stop mode
+	bIsStopMode			: BOOL;
+	
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>
