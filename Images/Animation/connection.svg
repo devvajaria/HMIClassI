@@ -1,0 +1,20 @@
+<svg id="pfade" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #4794da;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <rect class="cls-4" x="28.42239" y="18.562" width="7" height="7.8957"/>
+</svg>

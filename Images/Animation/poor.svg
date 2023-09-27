@@ -1,0 +1,21 @@
+<svg id="pfade" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #4794da;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <polyline class="cls-4" points="26,60 26,52 38,52 38,60"/>
+  <rect class="cls-4" x="30" y="26" width="4" height="25"/>
+</svg>
