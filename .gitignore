@@ -21,3 +21,17 @@ _Boot/
 _CompileInfo/
 _Libraries/
 _ModuleInstall/
+
+# TwinCAT HMI
+# TC HMI also creates it's own Ignore file inside every new project
+.engineering_servers/
+liveview_*
+*.cache
+*.db-shm
+*.db-wal
+*.pid
+tchmipublish.journal.json
+
+# TC HMI 1.12 Additional
+.hmiframework/
+.hmipkgs/*-*-*-*/
