@@ -2393,7 +2393,7 @@ External Setpoint Generation:
 			</Hides>
 		</DataType>
 	</DataTypes>
-	<Project ProjectGUID="{96A4343F-64C0-4354-85CE-815F725E5B4C}" AmlIdsEnabled="true" AutoPrioManagement="true" Utf8Encoding="true" ShowHideConfigurations="#x3c6">
+	<Project ProjectGUID="{96A4343F-64C0-4354-85CE-815F725E5B4C}" AmlIdsEnabled="true" Target64Bit="true" AutoPrioManagement="true" Utf8Encoding="true" ShowHideConfigurations="#x3c6">
 		<System>
 			<Settings MaxCpus="12">
 				<IoIdleTask Priority="6"/>
@@ -3042,7 +3042,7 @@ External Setpoint Generation:
 		</Motion>
 		<Plc>
 			<Project GUID="{BDD18F57-CECB-4AE4-9007-21BE1118B7B1}" Name="PLC1_AssemblyLine" PrjFilePath="PLC1_AssemblyLine\PLC1_AssemblyLine.plcproj" TmcFilePath="PLC1_AssemblyLine\PLC1_AssemblyLine.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="PLC1_AssemblyLine\PLC1_AssemblyLine.tmc" TmcHash="{58715C01-0669-725D-0575-3AEDB4AE0B79}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="PLC1_AssemblyLine\PLC1_AssemblyLine.tmc" TmcHash="{97670365-666E-A1D4-3815-D5426D69D2F0}">
 					<Name>PLC1_AssemblyLine Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
